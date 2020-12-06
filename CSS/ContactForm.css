@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+background-color: grey;
+font-size: 12pt;
+font-family: monospace;
+}
+h1{
+  color: White;
+  text-align: center;
+  font-family: monospace;
+  font-size: 35px;
+}
+h2{
+  color: White;
+  text-align: left;
+  font-family: monospace;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: black;
+}
+#Navigation{
+  background-color: grey;
+  font-size: 12pt;
+  font-family: monospace;
+}
+#Links a {
+    font-size: 0;
+    padding:5px;
+}
+#Links a img {
+    width: 75px;
+    height: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  resize: both;
+  overflow: auto;
+  font-family: monospace;
+}
+input[type=submit] {
+  background-color: white;
+  color: grey;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: monospace;
+}
+input[type=submit]:hover {
+  background-color: black;
+}
+.MainContent {
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+  color: white;
+}
+label{
+  color: white;
+}
+.table {
+  width:60%;
+  height: 60%;
+  border-color: white;
+}

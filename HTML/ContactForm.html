@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- EXTERNAL CSS STYLE SHEET -->
+    <link rel="stylesheet" type="text/css" href="../CSS/ContactForm.css">
+    <!-- EXTERNAL JS SCRIPT FOR VALIDATION WITHIN WEBSITE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../JS/"></script>
+  </head>
+  <body>
+    <!-- BEGINNING OF NAVIGATION BAR -->
+    <div class="Navigation" id="Navigation">
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="Interests.html">Interests</a></li>
+        <li><a href="ContactForm.html">Contact</a></li>
+      </ul>
+    <!-- END OF NAVIGATION BAR -->
+    </div>
+    <!-- BEGINNING OF MAIN CONTENT IN WEBSITE-->
+    <div class="MainContent" id="MainContent">
+      <h1 class="MCIntro" id="MCIntro"> Contact Form </h1>
+      <hr>
+      <form autocomplete="on" id="webform" name="webform" action="../PHP/webform.php" onsubmit="return checkForBlank()" method="post" ></form>
+
+
+      <div class="cvform" id="cvform">
+          <h2>RECIEVE MY CV MY USING THE CONTACT FORM BELOW</h2>
+      
+        <p1> Key: * = Required Fields </p1>
+        <br>
+        <br>
+        <label for="fname"> First Name </label>
+        <input type="Text" id="fname" Name="fname" placeholder="Enter Your First Name Here..." maxlength="15" autofocus>
+        <br>
+        <br>
+      
+        <label for="sname"> Surname </label>
+        <input type="Text" id="sname" Name="sname" placeholder="Enter Your Surname Here..." maxlength="20">
+        <br>
+        <br>
+
+        <label for="email"> Email Address </label>
+        <input type="Text" id="email" Name="email" placeholder="Example@hotmail.com">
+        <br>
+        <br>
+      
+        <label for="confirmemail"> Confirm Email Address * </label>
+        <input type="Text" id="confirmemail" Name="confirmemail" placeholder="Example@hotmail.com">
+        <br>
+        <br>
+
+        <label for="phonenumber"> Phone Number * </label>
+        <input type="Text" id="confirmemail" Name="confirmemail" placeholder="Example@hotmail.com">
+        <br>
+        <br>
+      
+        <label for="company"> Company </label>
+        <input type="text" id="company" name="company" placeholder="Enter Company name Here...">
+        <br>
+        <br>
+
+        <button id="submit" type="submit" value="Submit"> Submit </button>
+        <button id="clear" type="clear" value="clear"> Reset </button>
+      
+
+    </div>
+
+    <!--End of main content within website-->
+    <!--Links to social media in form of hyperlink through icons-->
+    <div class="Links" id="Links">
+      <hr>
+      <a href="https://www.snapchat.com/">
+        <img src="../Images/Snap.png" id="Snap" class="Snap" alt="">
+      </a>
+      <a href="https://www.instagram.com/__eoinmclaughlin/">
+        <img src="../Images/Insta.png" id="Insta" class="Insta" alt="">
+      </a>
+      <a href="https://www.facebook.com/eoin.mclaughlin2l">
+        <img src="../Images/Facebook.png" id="FB" class="FB" alt="">
+      </a>
+      <a href="https://twitter.com/eoinmclaughlin9">
+        <img src="../Images/Twitter.png" id="Twitter" class="Twitter" alt="">
+      </a>
+    </div>
+    <!--Beginning of Footer within website-->
+    <div class="Footer" id="Footer">
+      <hr>
+      <h2 id="Copyright" class="Copyright"> Developed By Eoin McLaughlin </h2>
+    </div>
+  </body>
+</html>

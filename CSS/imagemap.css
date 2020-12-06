@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+background: url("../Images/brooklynbridge.png");
+background-repeat: no-repeat;
+background-color: grey;
+font-size: 12pt;
+font-family: monospace;
+}
+h1{
+  color: White;
+  text-align: center;
+  font-family: monospace;
+  font-size: 35px;
+}
+#website{
+  background-color: grey;
+  font-size: 12pt;
+  font-family: monospace;
+}
+#quote1{
+  float: right;
+  font-size: 20pt;
+  padding-right: 0px
+}
+#quote2{
+  position: relative;
+top:auto;
+bottom: auto;
+-moz-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+-o-transform: rotate(180deg);
+-ms-transform: rotate(180deg);
+transform: rotate(180deg);
+font-size: 36pt;
+text-align: bottom;
+font-style: normal;
+font-family: monospace;
+line-height: normal;
+}

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+background-color: grey;
+font-size: 12pt;
+font-family: monospace;
+}
+h1{
+  color: White;
+  text-align: center;
+  font-family: monospace;
+  font-size: 35px;
+}
+h2{
+  color: White;
+  text-align: left;
+  font-family: monospace;
+  font-size: 20px;
+}
+.Navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+.Navigation li {
+  float: left;
+}
+.Navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.Navigation li a:hover {
+  background-color: black;
+}
+.Navigation{
+  background-color: grey;
+  font-size: 12pt;
+  font-family: monospace;
+}
+#btntxt, .btntxt{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 1px white solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: rgba(255,205,64,0.2);
+  border-radius: 10px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+#contactinfo{
+  color: white;
+  width: 100%;
+  text-align: center;#
+  background-color: grey;
+}
+#contactinfo iframe{
+  width: 100%;
+  height: fill;
+}
+#contactinfo h1{
+  font-size: 30px;
+}
+#Links a {
+    font-size: 0;
+    padding:5px;
+}
+#Links a img {
+    width: 75px;
+    height: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
